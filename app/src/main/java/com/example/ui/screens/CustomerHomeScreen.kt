@@ -30,6 +30,7 @@ import com.example.data.model.BusinessEntity
 import com.example.data.model.CategoryEntity
 import com.example.ui.components.RatingPill
 import com.example.ui.components.SponsoredBadge
+import com.example.ui.components.StatusBadge
 import com.example.ui.components.TwentyFourSevenBadge
 import com.example.ui.components.VerificationBadge
 import com.example.ui.theme.PrimaryBlue
@@ -260,8 +261,6 @@ fun CustomerHomeScreen(
         modifier = Modifier
           .fillMaxWidth()
           .padding(horizontal = 16.dp, vertical = 6.dp),
-          .fillMaxWidth()
-          .padding(horizontal = 16.dp, vertical = 8.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primary),
         shape = RoundedCornerShape(16.dp)
       ) {
