@@ -1,0 +1,6 @@
+{
+  "name": "My Connect",
+  "description": "Complete local business directory and 24/7 home services marketplace connecting customers, businesses, and providers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
